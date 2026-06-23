@@ -102,3 +102,8 @@ python tools/waypoints.py --name roadside_1 --scenario 1 --save_dir ./save_scena
 - \-\-save\_dir：场景JSON文件保存目录（默认output文件夹）
 
 > （注：文档部分内容可能由 AI 生成）
+
+## 5\. run.py参考运行指令
+```bash
+python tools/run.py --input_dir ./save_scenarios/ --town center  --scenario 3a
+```
